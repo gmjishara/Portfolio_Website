@@ -8,9 +8,9 @@ import TopicUnderliner from "../../Common/TopicUnderliner/TopicUnderliner";
 export default function About() {
   return (
     <Box className="about">
-      <SectionLayout>
-        <h1>Know Me More <TopicUnderliner/></h1>
-        
+      <SectionLayout heading="ABOUT ME" topic="Know Me More" bgColor="white">
+        {/* <h1 className="aboutHeading">Know Me More <TopicUnderliner/></h1> */}
+
         <Grid container spacing={5}  >
           <Grid item sm={8} className="esseyTxt">
             <h2>
@@ -36,7 +36,7 @@ export default function About() {
             <p><span>Age: </span>26</p>
             <Divider/>
             <p><span>From: </span>Colombo, Sri Lanka</p>
-            <PageButton text="Download CV"/>
+            <PageButton text="Download CV" />
           </Grid>
         </Grid>
       </SectionLayout>

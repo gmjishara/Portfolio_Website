@@ -1,0 +1,24 @@
+.layout{
+    font-family: "Poppins",sans-serif;
+}
+
+.headSection {
+  margin-bottom: 120px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bigHeading {
+  font-size: 150px;
+  position: absolute;
+  opacity: 0.05;
+  font-weight: 600;
+}
+
+.headingTopic {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+}
