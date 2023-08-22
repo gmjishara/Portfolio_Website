@@ -37,6 +37,12 @@
     opacity: 0.8;
 }
 
+.animateText{
+    color: white;
+    font-size: 70px;
+    font-weight: 700;
+}
+
 .btn{
     width:145px;
     height: 48px;
