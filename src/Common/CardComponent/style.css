@@ -1,0 +1,29 @@
+.yearBox{
+    width:250px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+    background-color: #20C997;
+}
+
+.cardComponent h3{
+    margin: 18px 0 9px 0;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.cardComponent h4{
+    font-weight: 400;
+    color:red;
+    opacity: 0.8;
+}
+
+.cardComponent .intro{
+    margin: 18px 0 0 15px;
+    line-height: 30px;
+    opacity: 0.8;
+}
+
+
+

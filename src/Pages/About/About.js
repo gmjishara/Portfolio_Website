@@ -9,7 +9,6 @@ export default function About() {
   return (
     <Box className="about">
       <SectionLayout heading="ABOUT ME" topic="Know Me More" bgColor="white">
-        {/* <h1 className="aboutHeading">Know Me More <TopicUnderliner/></h1> */}
 
         <Grid container spacing={5}  >
           <Grid item sm={8} className="esseyTxt">
