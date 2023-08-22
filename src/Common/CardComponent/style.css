@@ -15,8 +15,8 @@
 
 .cardComponent h4{
     font-weight: 400;
-    color:red;
-    opacity: 0.8;
+    color:#d9534f;
+   
 }
 
 .cardComponent .intro{
