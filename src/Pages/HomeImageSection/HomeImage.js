@@ -3,6 +3,7 @@ import React from "react";
 import "./style.css";
 import zIndex from "@mui/material/styles/zIndex";
 import { TypeAnimation } from "react-type-animation";
+import PageButton from "../../Common/PageButton/PageButton";
 
 export default function HomeImage() {
   return (
@@ -27,7 +28,7 @@ export default function HomeImage() {
         className="animateText"
       />
       <p className="homeText">based in Colombo, Sri Lanka.</p>
-      <button className="btn">Hire Me</button>
+      <PageButton text="Hire Me"/>
     </Box>
   );
 }
