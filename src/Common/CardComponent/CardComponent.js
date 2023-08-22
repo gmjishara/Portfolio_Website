@@ -5,7 +5,7 @@ import "./style.css"
 export default function CardComponent({year,children}) {
   return (
     <div>
-        <Card className='cardComponent' variant='outlined' style={{padding:"25px"}}>
+        <Card className='cardComponent' variant='outlined' style={{padding:"25px", backgroundColor:"transparent"}}>
             <Box className="yearBox"><p>{year}</p></Box>
             {children}
         </Card>
