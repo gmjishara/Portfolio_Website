@@ -11,3 +11,8 @@
     background: transparent;
     cursor: pointer;
 }
+
+.btn:hover{
+    background-color: #20C997;
+    color:white;
+}
