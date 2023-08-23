@@ -34,7 +34,9 @@ export default function Contact() {
             </Grid>
           </Grid>
 
-          <Grid container spacing={3} sm={8}></Grid>
+          <Grid container spacing={3} sm={8}>
+            <Typography style={{ fontSize: "19px", fontWeight: "600", opacity: "0.8" }}>SEND US A NOTE</Typography>
+          </Grid>
         </Grid>
       </SectionLayout>
     </div>
