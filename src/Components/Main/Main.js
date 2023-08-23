@@ -4,6 +4,7 @@ import HomeImage from "../../Pages/HomeImageSection/HomeImage";
 import About from "../../Pages/About/About";
 import Resume from "../../Pages/Resume/Resume";
 import Portfolio from "../../Pages/Portfolio/Portfolio";
+import Certifications from "../../Pages/Certifications/Certifications";
 
 export default function Main() {
   return (
@@ -12,6 +13,7 @@ export default function Main() {
       <About/>
       <Resume/>
       <Portfolio/>
+      <Certifications/>
     </Box>
   );
 }
