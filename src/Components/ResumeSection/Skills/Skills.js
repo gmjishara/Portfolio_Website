@@ -2,7 +2,7 @@ import { Grid } from "@mui/material";
 import React from "react";
 import "./style.css";
 import SkillBar from "../../../Common/SkillBar/SkillBar";
-// import DownloadIcon from '@mui/icons-material/Download';
+import DownloadIcon from '@mui/icons-material/Download';
 
 export default function Skills() {
   return (
@@ -38,7 +38,7 @@ export default function Skills() {
             marginTop: "-20px",
           }}
         >
-          <button className="btn2">Download CV</button>;
+          <button className="btn2">Download CV<DownloadIcon/></button>;
         </Grid>
       </Grid>
     </div>
