@@ -23,7 +23,7 @@ export default function Portfolio() {
           </Grid>
           <Grid item sm={4}>
             <ProjectsCard imgUrl={dashboard} >
-            <Typography>Social media dashboard using React js and Material UI and Larvel</Typography>
+            <Typography>Social media dashboard using React js, Material UI and Laravel</Typography>
             </ProjectsCard>
           </Grid>
         </Grid>
