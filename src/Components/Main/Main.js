@@ -5,6 +5,8 @@ import About from "../../Pages/About/About";
 import Resume from "../../Pages/Resume/Resume";
 import Portfolio from "../../Pages/Portfolio/Portfolio";
 import Certifications from "../../Pages/Certifications/Certifications";
+import Testimonial from "../../Pages/Testimonial/Testimonial";
+import Contact from "../../Pages/Contact/Contact";
 
 export default function Main() {
   return (
@@ -14,6 +16,8 @@ export default function Main() {
       <Resume/>
       <Portfolio/>
       <Certifications/>
+      <Testimonial/>
+      <Contact/>
     </Box>
   );
 }
