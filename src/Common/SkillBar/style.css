@@ -1,0 +1,16 @@
+.skillBar{
+    font-family: "Poppins",sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap:8px;
+    margin-bottom: 25px;
+}
+
+.skillText{
+    display: flex;
+    justify-content: space-between;
+}
+
+.skillText h4{
+    font-weight: 500;
+}
