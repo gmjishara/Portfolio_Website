@@ -13,17 +13,17 @@ export default function Portfolio() {
         <Grid container spacing={3}>
           <Grid item sm={4}>
             <ProjectsCard imgUrl={travel} >
-                <Typography>Travel website using HTML, CSS and JavaScript</Typography>
+                <Typography style={{color:"white", fontSize:"18px"}}>Travel website using HTML, CSS and JavaScript</Typography>
             </ProjectsCard>
           </Grid>
           <Grid item sm={4}>
             <ProjectsCard imgUrl={realEstate} >
-            <Typography>Real estate website using React js and Material UI</Typography>
+            <Typography style={{color:"white",fontSize:"18px"}}>Real estate website using React js and Material UI</Typography>
             </ProjectsCard>
           </Grid>
           <Grid item sm={4}>
             <ProjectsCard imgUrl={dashboard} >
-            <Typography>Social media dashboard using React js, Material UI and Laravel</Typography>
+            <Typography style={{color:"white",fontSize:"18px"}}>Social media dashboard using React js, Material UI and Laravel</Typography>
             </ProjectsCard>
           </Grid>
         </Grid>
