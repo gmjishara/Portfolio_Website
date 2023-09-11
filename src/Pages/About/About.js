@@ -2,8 +2,6 @@ import React from "react";
 import SectionLayout from "../../Common/SectionLayout/SectionLayout";
 import { Box, Divider, Grid } from "@mui/material";
 import "./style.css";
-import PageButton from "../../Common/PageButton/PageButton";
-import TopicUnderliner from "../../Common/TopicUnderliner/TopicUnderliner";
 
 export default function About() {
   return (
@@ -35,7 +33,7 @@ export default function About() {
             <p><span>Age: </span>26</p>
             <Divider/>
             <p><span>From: </span>Colombo, Sri Lanka</p>
-            <PageButton text="Download CV" />
+            <button className="btn-contained">Download CV</button>
           </Grid>
         </Grid>
       </SectionLayout>

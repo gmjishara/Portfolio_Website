@@ -38,7 +38,7 @@ export default function Skills() {
             marginTop: "-20px",
           }}
         >
-          <button className="btn2">Download CV<DownloadIcon/></button>;
+          <button className="btn-outlined-ash">Download CV<DownloadIcon/></button>;
         </Grid>
       </Grid>
     </div>

@@ -99,6 +99,9 @@ export default function Contact() {
               <Grid item sm={12}>
                 <TextArea placeholder="Tell us more about your needs........"/>
               </Grid>
+              <Grid item sm={12} style={{display:"flex",justifyContent:"center"}}>
+              <button className="btn-contained">Send Message</button>
+              </Grid>
             </Grid>
           </Grid>
         </Grid>

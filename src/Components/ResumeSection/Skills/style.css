@@ -3,24 +3,3 @@
   font-weight: 600;
   margin-bottom: 30px;
 }
-
-.btn2 {
-  width: 145px;
-  height: 48px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 10px;
-  color: #6B747C;
-  font-size: 16px;
-  font-weight: 500;
-  border-radius: 30px;
-  border: 2px solid #6B747C;
-  background: transparent;
-  cursor: pointer;
-}
-
-.btn2:hover {
-  background-color: #6B747C;
-  color: white;
-}
