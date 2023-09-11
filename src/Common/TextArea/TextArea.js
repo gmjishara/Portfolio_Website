@@ -36,9 +36,9 @@ export default function TextArea({placeholder}) {
     padding: 12px;
     border-radius: 10px 10px 0 10px;
     color: ${grey[900]};
-    background: ${'#ffffff'};
+    background: '#ffffff';
     border: 1px solid ${grey[300] };
-    box-shadow: 0px 2px 2px ${theme.palette.mode === 'dark' ? grey[900] : grey[50]};
+    box-shadow: 0px 2px 2px ${grey[50]};
 
     &:hover {
       border-color: ${grey[900]};

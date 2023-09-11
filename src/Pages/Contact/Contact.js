@@ -8,12 +8,16 @@ export default function Contact() {
     fontWeight: "500",
     fontFamily: "'Poppins',sans-serif",
   };
+
+  const typoStyles = {
+    fontFamily: "'Poppins',sans-serif",opacity:0.7,marginBottom:"7px"
+  }
   return (
     <div>
       <SectionLayout heading="CONTACT" topic="Get in Touch" bgColor="#F8F9FA">
         <Grid container spacing={8}>
           <Grid item sm={3}>
-            <Grid container spacing={2}>
+            <Grid container spacing={3}>
               <Grid item sm={12}>
                 <Typography
                   style={{
@@ -27,24 +31,24 @@ export default function Contact() {
                 </Typography>
               </Grid>
               <Grid item sm={12}>
-                <Typography style={{ fontFamily: "'Poppins',sans-serif" }}>
+                <Typography style={typoStyles}>
                   Nethmi, Giragahahena,
                 </Typography>
-                <Typography style={{ fontFamily: "'Poppins',sans-serif" }}>
+                <Typography style={typoStyles}>
                   South Kanumuldeniya,
                 </Typography>
-                <Typography style={{ fontFamily: "'Poppins',sans-serif" }}>
+                <Typography style={typoStyles}>
                   Walasmulla,
                 </Typography>
-                <Typography style={{ fontFamily: "'Poppins',sans-serif" }}>
+                <Typography style={typoStyles}>
                   Sri Lanka
                 </Typography>
               </Grid>
               <Grid item sm={12}>
-                <Typography style={{ fontFamily: "'Poppins',sans-serif" }}>
+                <Typography style={typoStyles}>
                   +94 703 446 593,
                 </Typography>
-                <Typography style={{ fontFamily: "'Poppins',sans-serif" }}>
+                <Typography style={typoStyles}>
                   janithishara971231@gmail.com
                 </Typography>
               </Grid>
