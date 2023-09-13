@@ -57,8 +57,9 @@ export default function SideNavbar() {
   const sidenavArray = [
     "Home",
     "About Me",
-    "What I do",
     "Resume",
+    "Certifications",
+    "Testimonial",
     "Portfolio",
     "Contact",
   ];
