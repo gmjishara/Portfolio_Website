@@ -29,9 +29,7 @@ export default function Testimonial() {
         topic="Professionals Speak"
         bgColor="#ffffff"
       >
-        <ReactElasticCarousel breakPoints={breakPoints} sx={({ dotsColor }) => ({
-    dotsColor: "#ff0000",
-  })}>
+        <ReactElasticCarousel breakPoints={breakPoints} focusOnSelect={true}>
           <RecommendationCard
             image={yasindu}
             name="Yasindu Sathsara"
