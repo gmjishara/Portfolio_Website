@@ -10,7 +10,7 @@ import "./style.css";
 
 export default function Testimonial() {
   const breakPoints = [
-    { width: 500, itemsToShow: 2 },
+    { width: 500, itemsToShow: 1 },
     { width: 768, itemsToShow: 2 },
     { width: 1200, itemsToShow: 2 },
     { width: 1500, itemsToShow: 2 },
@@ -19,7 +19,7 @@ export default function Testimonial() {
   const textStyle = {
     fontWeight: 500,
     fontFamily: "'Poppins',sans-serif",
-    lineHeight:"28px"
+    lineHeight: "28px",
   };
 
   return (
@@ -29,7 +29,9 @@ export default function Testimonial() {
         topic="Professionals Speak"
         bgColor="#ffffff"
       >
-        <ReactElasticCarousel breakPoints={breakPoints}>
+        <ReactElasticCarousel breakPoints={breakPoints} sx={({ dotsColor }) => ({
+    dotsColor: "#ff0000",
+  })}>
           <RecommendationCard
             image={yasindu}
             name="Yasindu Sathsara"
@@ -38,7 +40,7 @@ export default function Testimonial() {
             <Typography className="longText" style={textStyle}>
               "Janith is very talented guy against problem solving and every
               programming task. He worked with me some java, php and react
-              projects also. He gave admirable support to success our projects."
+              projects and gave admirable support to success our projects."
             </Typography>
           </RecommendationCard>
           <RecommendationCard

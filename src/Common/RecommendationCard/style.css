@@ -1,8 +1,9 @@
 .recommendationLayout{
-    height:300px;
+    height:350px;
     padding:40px;
     background-color: #F8F9FA;
     font-family: "Poppins",sans-serif;
+    margin-right: 25px;
 }
 
 

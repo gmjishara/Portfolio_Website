@@ -1,3 +1,16 @@
-.longText{
-    text-align: justify;
+.longText {
+  text-align: justify;
+}
+
+button.rec-dot {
+  background-color: #CCCCCC;
+  box-shadow: 0 0 1px 3px #CCCCCC;
+}
+
+button.rec-dot:hover, button.rec-dot:active,
+button.rec-dot:focus {
+  box-shadow: 0 0 1px 3px rgba(32, 201, 151, 0.5);
+  background-color:#20C997;
+  width:12px;
+  height: 12px;
 }
