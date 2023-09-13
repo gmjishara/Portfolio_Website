@@ -1,10 +1,10 @@
 import React from "react";
 import SectionLayout from "../../Common/SectionLayout/SectionLayout";
-import { Carousel } from "react-responsive-carousel";
 import ReactElasticCarousel from "react-elastic-carousel";
-import python from "../../images/python.jpg";
-import java from "../../images/java.png";
-import travel from "../../images/travel.jpg";
+import RecommendationCard from "../../Common/RecommendationCard/RecommendationCard";
+import yasindu from "../../images/yasindu.jpg";
+import sachi from "../../images/sachi.jpg";
+import chami from "../../images/chami.jpg";
 
 export default function Testimonial() {
   const breakPoints = [
@@ -22,15 +22,21 @@ export default function Testimonial() {
         bgColor="#ffffff"
       >
         <ReactElasticCarousel breakPoints={breakPoints}>
-          <div>
-            <img src={python} height="300px" alt="python" />
-          </div>
-          <div>
-            <img src={java} height="300px" alt="java" />
-          </div>
-          <div>
-            <img src={travel} height="300px" alt="tarvel" />
-          </div>
+          <RecommendationCard
+            image={yasindu}
+            name="Yasindu Sathsara"
+            post="CEO | Hotcat Technologies (Pvt) Ltd"
+          ></RecommendationCard>
+          <RecommendationCard
+            image={sachi}
+            name="Sachini Jayasuriya"
+            post="Quality Assuarance Engineer | London Stock Exchange Group"
+          ></RecommendationCard>
+          <RecommendationCard
+            image={chami}
+            name="Chamikara Ruchiranga"
+            post="Senior Software Engineer | Hotcat Technologies (Pvt) Ltd"
+          ></RecommendationCard>
         </ReactElasticCarousel>
       </SectionLayout>
     </div>
