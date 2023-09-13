@@ -19,6 +19,7 @@ export default function Testimonial() {
   const textStyle = {
     fontWeight: 500,
     fontFamily: "'Poppins',sans-serif",
+    lineHeight:"28px"
   };
 
   return (
