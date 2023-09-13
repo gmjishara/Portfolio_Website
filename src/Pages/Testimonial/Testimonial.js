@@ -32,7 +32,7 @@ export default function Testimonial() {
           <RecommendationCard
             image={yasindu}
             name="Yasindu Sathsara"
-            post="CEO | Hotcat Technologies (Pvt) Ltd"
+            post="Senior Software Engineer | Hotcat Technologies (Pvt) Ltd"
           >
             <Typography className="longText" style={textStyle}>
               "Janith is very talented guy against problem solving and every

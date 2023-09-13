@@ -12,10 +12,10 @@ export default function RecommendationCard({ image, name, post, children }) {
       <Paper elevation={0}>
         <Box className="recommendationLayout">
           <Grid container spacing={2}>
-            <Grid item sm={4}>
-              <Avatar alt="recommendations" src={image} />
+            <Grid item sm={2.5}>
+              <Avatar alt="recommendations" src={image} sx={{width:70,height:70}}/>
             </Grid>
-            <Grid item sm={8}>
+            <Grid item sm={9.5}>
               <Typography style={textStyle}>
                 {name}
               </Typography>
