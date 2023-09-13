@@ -1,6 +1,10 @@
 .recommendationLayout{
+    height:300px;
     padding:25px;
+    background-color: #F8F9FA;
+    font-family: "Poppins",sans-serif;
 }
+
 
 .post{
     opacity: 0.8;
