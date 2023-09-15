@@ -2,12 +2,18 @@ import React from "react";
 import SectionLayout from "../../Common/SectionLayout/SectionLayout";
 import { Box, Divider, Grid } from "@mui/material";
 import "./style.css";
+import Link from '@mui/material/Link';
 
 export default function About() {
   return (
-    <section >
+    <section>
       <Box className="aboutContainer">
-        <SectionLayout heading="ABOUT ME" topic="Know Me More" bgColor="white" id="about">
+        <SectionLayout
+          heading="ABOUT ME"
+          topic="Know Me More"
+          bgColor="white"
+          id="about"
+        >
           <Grid container spacing={5}>
             <Grid item sm={8} className="esseyTxt">
               <h2>
@@ -41,7 +47,9 @@ export default function About() {
               <p>
                 <span>From: </span>Colombo, Sri Lanka
               </p>
-              <button className="btn-contained">Download CV</button>
+              <Link href="http://localhost:3000/Resume.pdf" underline="none">
+                <button className="btn-contained">Download CV</button>
+              </Link>
             </Grid>
           </Grid>
         </SectionLayout>

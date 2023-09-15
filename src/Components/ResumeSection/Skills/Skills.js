@@ -2,7 +2,8 @@ import { Grid } from "@mui/material";
 import React from "react";
 import "./style.css";
 import SkillBar from "../../../Common/SkillBar/SkillBar";
-import DownloadIcon from '@mui/icons-material/Download';
+import DownloadIcon from "@mui/icons-material/Download";
+import Link from '@mui/material/Link';
 
 export default function Skills() {
   return (
@@ -38,7 +39,13 @@ export default function Skills() {
             marginTop: "-20px",
           }}
         >
-          <button className="btn-outlined-ash">Download CV<DownloadIcon/></button>;
+          <Link href="http://localhost:3000/Resume.pdf" underline="none">
+            <button className="btn-outlined-ash">
+              Download CV
+              <DownloadIcon />
+            </button>
+          </Link>
+          ;
         </Grid>
       </Grid>
     </div>
