@@ -12,6 +12,7 @@
   background: transparent;
   cursor: pointer;
   padding: 25px 45px;
+  transition: all 0.5s ease;
 }
 
 .btn-outlined:hover {
@@ -33,6 +34,7 @@
   background: transparent;
   cursor: pointer;
   padding: 25px 45px;
+  transition: all 0.5s ease;
 }
 
 .btn-outlined-ash:hover {
@@ -54,10 +56,12 @@
     background: #20c997;
     cursor: pointer;
     padding: 25px 45px;
+    transition: all 0.5s ease;
 }
 
 .btn-contained:hover {
-    background-color: #20c997;
+    background-color: #1BAA80;
+    border: 2px solid #1BAA80;
     color: white;
     box-shadow: 0 5px 15px rgba(0,0,0,.15);
   }
