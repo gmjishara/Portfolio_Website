@@ -1,12 +1,11 @@
-import { Box, Button } from "@mui/material";
+import { Box } from "@mui/material";
 import React from "react";
 import "./style.css";
 import { TypeAnimation } from "react-type-animation";
 
-
 export default function HomeImage() {
   return (
-    <Box className="homeImage">
+    <Box className="homeImage" id="home">
       <h3>Welcome</h3>
       <TypeAnimation
         sequence={[

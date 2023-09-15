@@ -12,7 +12,7 @@ import "./style.css"
 export default function Main() {
   return (
     <Box sx={{ position: "relative", paddingLeft: "260px", width: "100%" }}>
-      <HomeImage />
+      <HomeImage/>
       <About/>
       <Resume/>
       <Portfolio/>

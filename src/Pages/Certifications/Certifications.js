@@ -11,11 +11,12 @@ import mysql from "../../images/mysql.jpg";
 
 export default function Certifications() {
   return (
-    <div>
+    <section >
       <SectionLayout
         heading="CERTIFICATIONS"
         topic="My Certificates"
         bgColor="#F8F9FA"
+        id="certifications"
       >
         <Grid container spacing={3}>
           <Grid item sm={4}>
@@ -68,6 +69,6 @@ export default function Certifications() {
           </Grid>
         </Grid>
       </SectionLayout>
-    </div>
+    </section>
   );
 }

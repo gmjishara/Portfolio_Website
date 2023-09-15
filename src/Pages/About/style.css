@@ -1,8 +1,8 @@
-.about{
+.aboutContainer{
     font-family:"Poppins",sans-serif;
 }
 
-.about h2{
+.aboutContainer h2{
     font-size: 30px;
     font-weight: 600;
 }

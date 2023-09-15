@@ -3,6 +3,8 @@ import Box from "@mui/material/Box";
 import Paper from "@mui/material/Paper";
 import { Grid, Typography } from "@mui/material";
 import MyImage from "../../images/My.jpg";
+import { Link, animateScroll as scroll } from "react-scroll";
+import "./style.css"
 
 export default function SideNavbar() {
   const paperStyle = {
@@ -24,6 +26,7 @@ export default function SideNavbar() {
     backgroundRepeat: "no-repeat",
     backgroundPosition: "center",
     backgroundSize: "cover",
+    cursor: "pointer"
   };
 
   const containertyle = {
@@ -48,35 +51,71 @@ export default function SideNavbar() {
     gap: 19,
   };
 
-  const middleTextStyle ={
-    textAlign:'center',
+  const middleTextStyle = {
+    textAlign: "center",
     fontFamily: "'Poppins', sans-serif",
     fontSize: 16,
-  }
+    cursor:"pointer",
+  };
 
   const sidenavArray = [
-    "Home",
-    "About Me",
-    "Resume",
-    "Certifications",
-    "Testimonial",
-    "Portfolio",
-    "Contact",
+    {
+      name: "Home",
+      href: "home",
+    },
+    {
+      name: "About Me",
+      href: "about",
+    },
+    {
+      name: "Resume",
+      href: "resume",
+    },
+
+    {
+      name: "Portfolio",
+      href: "portfolio",
+    },
+    {
+      name: "Certifications",
+      href: "certifications",
+    },
+    {
+      name: "Testimonial",
+      href: "testimonial",
+    },
+    {
+      name: "Contact",
+      href: "contact",
+    },
   ];
 
+  const goTop=()=>{
+    scroll.scrollToTop();
+  }
+
   return (
-    <Box sx={{ position: "fixed" }}>
+    <Box sx={{ position: "fixed", zIndex: "2" }}>
       <Paper elevation={0} sx={paperStyle}>
         <Grid container sx={containertyle}>
           <Grid item>
-            <Box sx={imageStyle}></Box>
+            <Box sx={imageStyle} onClick={goTop}></Box>
             <Typography textAlign="center" sx={textStyle}>
               Janith Ishara
             </Typography>
           </Grid>
           <Grid item style={navTextGrid}>
             {sidenavArray.map((item) => (
-              <Typography style={middleTextStyle}>{item}</Typography>
+              <Link
+                to={item.href}
+                activeClass="active"
+                spy={true}
+                smooth={true}
+                duration={500}
+                style={middleTextStyle}
+              >
+                {item.name}
+              </Link>
             ))}
           </Grid>
           <Grid item></Grid>
