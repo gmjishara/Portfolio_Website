@@ -4,7 +4,11 @@ import Paper from "@mui/material/Paper";
 import { Grid, Typography } from "@mui/material";
 import MyImage from "../../images/My.jpg";
 import { Link, animateScroll as scroll } from "react-scroll";
-import "./style.css"
+import "./style.css";
+import facebook from "../../images/navbar/facebook.svg";
+import twitter from "../../images/navbar/twitter.svg";
+import linkedin from "../../images/navbar/linkedin.svg";
+import github from "../../images/navbar/github.svg";
 
 export default function SideNavbar() {
   const paperStyle = {
@@ -18,15 +22,15 @@ export default function SideNavbar() {
 
   const imageStyle = {
     borderRadius: "100%",
-    width: "160px",
-    height: "160px",
+    width: "170px",
+    height: "170px",
     backgroundColor: "white",
     border: "8px solid #343A40",
     backgroundImage: `url(${MyImage})`,
     backgroundRepeat: "no-repeat",
     backgroundPosition: "center",
     backgroundSize: "cover",
-    cursor: "pointer"
+    cursor: "pointer",
   };
 
   const containertyle = {
@@ -55,7 +59,7 @@ export default function SideNavbar() {
     textAlign: "center",
     fontFamily: "'Poppins', sans-serif",
     fontSize: 16,
-    cursor:"pointer",
+    cursor: "pointer",
   };
 
   const sidenavArray = [
@@ -90,9 +94,9 @@ export default function SideNavbar() {
     },
   ];
 
-  const goTop=()=>{
+  const goTop = () => {
     scroll.scrollToTop();
-  }
+  };
 
   return (
     <Box sx={{ position: "fixed", zIndex: "2" }}>
@@ -118,7 +122,14 @@ export default function SideNavbar() {
               </Link>
             ))}
           </Grid>
-          <Grid item></Grid>
+          <Grid item>
+            <div className="navIcons">
+              <img src={facebook} alt="fb" width={18} height={18} />
+              <img src={twitter} alt="tw" width={18} height={18} />
+              <img src={linkedin} alt="fb" width={18} height={18} />
+              <img src={github} alt="fb" width={20} height={20} />
+            </div>
+          </Grid>
         </Grid>
       </Paper>
     </Box>

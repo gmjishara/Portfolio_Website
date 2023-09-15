@@ -1,3 +1,15 @@
 .active{
     color:#20C997;
 }
+
+.navIcons{
+    display: flex;
+    gap:15px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.navIcons:hover{
+    cursor: pointer;
+}

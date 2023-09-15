@@ -4,10 +4,10 @@ import { Grid, TextField, Typography } from "@mui/material";
 import TextArea from "../../Common/TextArea/TextArea";
 import PhoneIcon from "@mui/icons-material/Phone";
 import EmailIcon from "@mui/icons-material/Email";
-import facebook from "../../images/facebook.svg";
-import twitter from "../../images/twitter.svg";
-import linkedin from "../../images/linkedin.svg";
-import github from "../../images/github.svg";
+import facebook from "../../images/contact/facebook.svg";
+import twitter from "../../images/contact/twitter.svg";
+import linkedin from "../../images/contact/linkedin.svg";
+import github from "../../images/contact/github.svg";
 import "./style.css";
 
 export default function Contact() {
