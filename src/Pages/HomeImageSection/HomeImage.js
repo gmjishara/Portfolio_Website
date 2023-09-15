@@ -2,6 +2,7 @@ import { Box } from "@mui/material";
 import React from "react";
 import "./style.css";
 import { TypeAnimation } from "react-type-animation";
+import { Link } from "react-scroll";
 
 export default function HomeImage() {
   return (
@@ -26,7 +27,9 @@ export default function HomeImage() {
         className="animateText"
       />
       <p className="homeText">based in Colombo, Sri Lanka.</p>
-      <button className="btn-outlined">Hire Me</button>
+      <Link to="contact" duration={500} smooth={true}>
+        <button className="btn-outlined">Hire Me</button>
+      </Link>
     </Box>
   );
 }
