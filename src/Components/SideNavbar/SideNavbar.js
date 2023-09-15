@@ -124,10 +124,34 @@ export default function SideNavbar() {
           </Grid>
           <Grid item>
             <div className="navIcons">
-              <img src={facebook} alt="fb" width={18} height={18} />
-              <img src={twitter} alt="tw" width={18} height={18} />
-              <img src={linkedin} alt="fb" width={18} height={18} />
-              <img src={github} alt="fb" width={20} height={20} />
+              <a
+                href="https://www.facebook.com"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={facebook} alt="fb" width={18} height={18} />
+              </a>
+              <a
+                href="https://www.twitter.com"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={twitter} alt="tw" width={18} height={18} />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/janithse97/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={linkedin} alt="fb" width={18} height={18} />
+              </a>
+              <a
+                href="https://github.com/gmjishara"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={github} alt="fb" width={20} height={20} />
+              </a>
             </div>
           </Grid>
         </Grid>
