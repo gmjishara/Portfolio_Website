@@ -125,14 +125,14 @@ export default function SideNavbar() {
           <Grid item>
             <div className="navIcons">
               <a
-                href="https://www.facebook.com"
+                href="https://web.facebook.com/janith.ishara.336"
                 target="_blank"
                 rel="noreferrer"
               >
                 <img src={facebook} alt="fb" width={18} height={18} />
               </a>
               <a
-                href="https://www.twitter.com"
+                href="https://twitter.com/janithishara6"
                 target="_blank"
                 rel="noreferrer"
               >

@@ -78,10 +78,34 @@ export default function Contact() {
                 FOLLOW ME
               </Typography>
               <div className="icons">
-                <img src={facebook} alt="fb" width={25} height={25} />
-                <img src={twitter} alt="tw" width={25} height={25} />
-                <img src={linkedin} alt="fb" width={25} height={25} />
-                <img src={github} alt="fb" width={30} height={30} />
+                <a
+                  href="https://web.facebook.com/janith.ishara.336"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={facebook} alt="fb" width={25} height={25} />
+                </a>
+                <a
+                  href="https://twitter.com/janithishara6"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={twitter} alt="tw" width={25} height={25} />
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/janithse97/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={linkedin} alt="fb" width={25} height={25} />
+                </a>
+                <a
+                  href="https://github.com/gmjishara"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={github} alt="fb" width={30} height={30} />
+                </a>
               </div>
             </Grid>
           </Grid>

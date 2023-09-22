@@ -17,7 +17,7 @@ export default function About() {
           <Grid container spacing={5}>
             <Grid item sm={8} className="esseyTxt">
               <h2>
-                I'm <span>janith Ishara</span>, a Web Developer
+                I'm <span>Janith Ishara</span>, a Web Developer
               </h2>
               <p className="centerTxt">
                 I help you build brand for your business at an affordable price.

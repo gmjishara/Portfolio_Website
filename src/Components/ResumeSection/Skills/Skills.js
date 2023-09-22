@@ -18,6 +18,7 @@ export default function Skills() {
           <SkillBar language="Redux" percentage="65" />
           <SkillBar language="Bootstrap" percentage="65" />
           <SkillBar language="Material UI" percentage="75" />
+          <SkillBar language="Next Js" percentage="75" />
         </Grid>
 
         <Grid item sm={6}>
@@ -28,6 +29,7 @@ export default function Skills() {
           <SkillBar language="Spring boot" percentage="50" />
           <SkillBar language="MySQL" percentage="75" />
           <SkillBar language="Rest API" percentage="70" />
+          <SkillBar language="Mongodb" percentage="75" />
         </Grid>
 
         <Grid
