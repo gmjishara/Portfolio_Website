@@ -125,7 +125,7 @@ export default function SideNavbar() {
           </Grid>
           <Grid item>
             <div className="navIcons">
-              <LinkPopover text="facebook">
+              <LinkPopover text="Facebook">
               <a
                 href="https://web.facebook.com/janith.ishara.336"
                 target="_blank"
