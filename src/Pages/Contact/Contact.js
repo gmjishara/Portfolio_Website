@@ -79,45 +79,45 @@ export default function Contact() {
                 FOLLOW ME
               </Typography>
               <div className="icons">
-                <LinkPopover text="Facebook">
-                  <a
-                    href="https://web.facebook.com/janith.ishara.336"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
+                <a
+                  href="https://web.facebook.com/janith.ishara.336"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <LinkPopover text="Facebook">
                     <img src={facebook} alt="fb" width={25} height={25} />
-                  </a>
-                </LinkPopover>
+                  </LinkPopover>
+                </a>
 
-                <LinkPopover text="Twitter">
-                  <a
-                    href="https://twitter.com/janithishara6"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
+                <a
+                  href="https://twitter.com/janithishara6"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <LinkPopover text="Twitter">
                     <img src={twitter} alt="tw" width={25} height={25} />
-                  </a>
-                </LinkPopover>
+                  </LinkPopover>
+                </a>
 
-                <LinkPopover text="Linkedin">
-                  <a
-                    href="https://www.linkedin.com/in/janithse97/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
+                <a
+                  href="https://www.linkedin.com/in/janithse97/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <LinkPopover text="Linkedin">
                     <img src={linkedin} alt="fb" width={25} height={25} />
-                  </a>
-                </LinkPopover>
+                  </LinkPopover>
+                </a>
 
-                <LinkPopover text="Github">
-                  <a
-                    href="https://github.com/gmjishara"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
+                <a
+                  href="https://github.com/gmjishara"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <LinkPopover text="Github">
                     <img src={github} alt="fb" width={30} height={30} />
-                  </a>
-                </LinkPopover>
+                  </LinkPopover>
+                </a>
               </div>
             </Grid>
           </Grid>

@@ -125,44 +125,44 @@ export default function SideNavbar() {
           </Grid>
           <Grid item>
             <div className="navIcons">
-              <LinkPopover text="Facebook">
               <a
                 href="https://web.facebook.com/janith.ishara.336"
                 target="_blank"
                 rel="noreferrer"
               >
-                <img src={facebook} alt="fb" width={18} height={18} />
+                <LinkPopover text="Facebook">
+                  <img src={facebook} alt="fb" width={18} height={18} />
+                </LinkPopover>
               </a>
-              </LinkPopover>
 
               <LinkPopover text="Twitter">
-              <a
-                href="https://twitter.com/janithishara6"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img src={twitter} alt="tw" width={18} height={18} />
-              </a>
+                <a
+                  href="https://twitter.com/janithishara6"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={twitter} alt="tw" width={18} height={18} />
+                </a>
               </LinkPopover>
 
               <LinkPopover text="Linkedin">
-              <a
-                href="https://www.linkedin.com/in/janithse97/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img src={linkedin} alt="fb" width={18} height={18} />
-              </a>
+                <a
+                  href="https://www.linkedin.com/in/janithse97/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={linkedin} alt="fb" width={18} height={18} />
+                </a>
               </LinkPopover>
 
               <LinkPopover text="Github">
-              <a
-                href="https://github.com/gmjishara"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img src={github} alt="fb" width={20} height={20} />
-              </a>
+                <a
+                  href="https://github.com/gmjishara"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={github} alt="fb" width={20} height={20} />
+                </a>
               </LinkPopover>
             </div>
           </Grid>
