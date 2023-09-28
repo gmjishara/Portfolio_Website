@@ -1,8 +1,17 @@
 import * as React from 'react';
 import { TextareaAutosize } from '@mui/base/TextareaAutosize';
 import { styled } from '@mui/system';
+import { useState } from 'react';
 
-export default function TextArea({placeholder}) {
+export default function TextArea({placeholder, textAreaValue}) {
+
+  const[value,setValue]=useState("");
+
+  const setValueFunction=(e)=>{
+    textAreaValue(e.target.value);
+    setValue(e.target.value);
+  }
+
   const blue = {
     100: '#DAECFF',
     200: '#b6daff',
@@ -60,6 +69,9 @@ export default function TextArea({placeholder}) {
     <StyledTextarea
       maxRows={10}
       placeholder={placeholder}
+      value={value}
+      onChange={setValueFunction}
     />
+   
   );
 }

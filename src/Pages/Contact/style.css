@@ -9,3 +9,22 @@
 .icons img{
     cursor: pointer;
 }
+
+.contactBody{
+    width:100%;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid #afb8c1;
+    color: #afb8c1;
+}
+
+.contactBody:hover{
+    border-color: #24292f;
+}
+
+.contactBody:focus{
+    border-color: #DAECFF;
+    box-shadow: 0 0 0 1px #007FFF;
+    outline: none;
+}

@@ -1,7 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
 import SectionLayout from "../../Common/SectionLayout/SectionLayout";
 import { Grid, TextField, Typography } from "@mui/material";
-import TextArea from "../../Common/TextArea/TextArea";
 import PhoneIcon from "@mui/icons-material/Phone";
 import EmailIcon from "@mui/icons-material/Email";
 import facebook from "../../images/contact/facebook.svg";
@@ -12,6 +11,10 @@ import "./style.css";
 import LinkPopover from "../../Common/LinkPopover/LinkPopover";
 
 export default function Contact() {
+  const [email, setEmail] = useState("");
+  const [name, setName] = useState("");
+  const [body, setBody] = useState("");
+
   const placeholderStyles = {
     fontWeight: "500",
     fontFamily: "'Poppins',sans-serif",
@@ -142,6 +145,7 @@ export default function Contact() {
                 placeholder="Name"
                 style={{ backgroundColor: "#FFFFFF" }}
                 inputProps={{ style: placeholderStyles }}
+                onChange={(e) => setName(e.target.value)}
               />
             </Grid>
             <Grid item sm={6}>
@@ -150,17 +154,30 @@ export default function Contact() {
                 placeholder="Email"
                 style={{ backgroundColor: "#FFFFFF" }}
                 inputProps={{ style: placeholderStyles }}
+                onChange={(e) => setEmail(e.target.value)}
               />
             </Grid>
             <Grid item sm={12}>
-              <TextArea placeholder="Tell us more about your needs........" />
+              <textarea
+                placeholder="Tell us more about your needs........"
+                rows="10"
+                cols="100"
+                className="contactBody"
+                onChange={(e) => setBody(e.target.value)}
+              />
             </Grid>
             <Grid
               item
               sm={12}
               style={{ display: "flex", justifyContent: "center" }}
             >
-              <button className="btn-contained">Send Message</button>
+              <a
+                className="btn-contained"
+                style={{ paddingLeft: "30px", paddingRight: "30px" }}
+                href={`mailto:${email}?subject=${name}&body=${body}`}
+              >
+                Send Message
+              </a>
             </Grid>
           </Grid>
         </Grid>
