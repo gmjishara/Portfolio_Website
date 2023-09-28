@@ -9,6 +9,7 @@ import facebook from "../../images/navbar/facebook.svg";
 import twitter from "../../images/navbar/twitter.svg";
 import linkedin from "../../images/navbar/linkedin.svg";
 import github from "../../images/navbar/github.svg";
+import LinkPopover from "../../Common/LinkPopover/LinkPopover";
 
 export default function SideNavbar() {
   const paperStyle = {
@@ -124,6 +125,7 @@ export default function SideNavbar() {
           </Grid>
           <Grid item>
             <div className="navIcons">
+              <LinkPopover text="facebook">
               <a
                 href="https://web.facebook.com/janith.ishara.336"
                 target="_blank"
@@ -131,6 +133,9 @@ export default function SideNavbar() {
               >
                 <img src={facebook} alt="fb" width={18} height={18} />
               </a>
+              </LinkPopover>
+
+              <LinkPopover text="Twitter">
               <a
                 href="https://twitter.com/janithishara6"
                 target="_blank"
@@ -138,6 +143,9 @@ export default function SideNavbar() {
               >
                 <img src={twitter} alt="tw" width={18} height={18} />
               </a>
+              </LinkPopover>
+
+              <LinkPopover text="Linkedin">
               <a
                 href="https://www.linkedin.com/in/janithse97/"
                 target="_blank"
@@ -145,6 +153,9 @@ export default function SideNavbar() {
               >
                 <img src={linkedin} alt="fb" width={18} height={18} />
               </a>
+              </LinkPopover>
+
+              <LinkPopover text="Github">
               <a
                 href="https://github.com/gmjishara"
                 target="_blank"
@@ -152,6 +163,7 @@ export default function SideNavbar() {
               >
                 <img src={github} alt="fb" width={20} height={20} />
               </a>
+              </LinkPopover>
             </div>
           </Grid>
         </Grid>
