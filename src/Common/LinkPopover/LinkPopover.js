@@ -34,17 +34,18 @@ export default function LinkPopover({children, text}) {
         open={open}
         anchorEl={anchorEl}
         anchorOrigin={{
-          vertical: 'bottom',
-          horizontal: 'left',
-        }}
-        transformOrigin={{
           vertical: 'top',
           horizontal: 'left',
         }}
+        transformOrigin={{
+          vertical: 'bottom',
+          horizontal: 'left',
+        }}
+        anchorPosition="100px"
         onClose={handlePopoverClose}
         disableRestoreFocus
       >
-        <Typography sx={{ p: 1 }}>{text}</Typography>
+        <Typography sx={{ p: 0.6, fontSize:10 }}>{text}</Typography>
       </Popover>
     </div>
   );
