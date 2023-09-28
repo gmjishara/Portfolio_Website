@@ -9,6 +9,7 @@ import twitter from "../../images/contact/twitter.svg";
 import linkedin from "../../images/contact/linkedin.svg";
 import github from "../../images/contact/github.svg";
 import "./style.css";
+import LinkPopover from "../../Common/LinkPopover/LinkPopover";
 
 export default function Contact() {
   const placeholderStyles = {
@@ -78,34 +79,45 @@ export default function Contact() {
                 FOLLOW ME
               </Typography>
               <div className="icons">
-                <a
-                  href="https://web.facebook.com/janith.ishara.336"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img src={facebook} alt="fb" width={25} height={25} />
-                </a>
-                <a
-                  href="https://twitter.com/janithishara6"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img src={twitter} alt="tw" width={25} height={25} />
-                </a>
-                <a
-                  href="https://www.linkedin.com/in/janithse97/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img src={linkedin} alt="fb" width={25} height={25} />
-                </a>
-                <a
-                  href="https://github.com/gmjishara"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img src={github} alt="fb" width={30} height={30} />
-                </a>
+                <LinkPopover text="Facebook">
+                  <a
+                    href="https://web.facebook.com/janith.ishara.336"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img src={facebook} alt="fb" width={25} height={25} />
+                  </a>
+                </LinkPopover>
+
+                <LinkPopover text="Twitter">
+                  <a
+                    href="https://twitter.com/janithishara6"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img src={twitter} alt="tw" width={25} height={25} />
+                  </a>
+                </LinkPopover>
+
+                <LinkPopover text="Linkedin">
+                  <a
+                    href="https://www.linkedin.com/in/janithse97/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img src={linkedin} alt="fb" width={25} height={25} />
+                  </a>
+                </LinkPopover>
+
+                <LinkPopover text="Github">
+                  <a
+                    href="https://github.com/gmjishara"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img src={github} alt="fb" width={30} height={30} />
+                  </a>
+                </LinkPopover>
               </div>
             </Grid>
           </Grid>
