@@ -7,18 +7,18 @@ import Portfolio from "../../Pages/Portfolio/Portfolio";
 import Certifications from "../../Pages/Certifications/Certifications";
 import Testimonial from "../../Pages/Testimonial/Testimonial";
 import Contact from "../../Pages/Contact/Contact";
-import "./style.css"
+import "./style.css";
 
 export default function Main() {
   return (
     <Box sx={{ position: "relative", paddingLeft: "260px", width: "100%" }}>
-      <HomeImage/>
-      <About/>
-      <Resume/>
-      <Portfolio/>
-      <Certifications/>
-      <Testimonial/>
-      <Contact/>
+      <HomeImage />
+      <About />
+      <Resume />
+      <Portfolio />
+      <Certifications />
+      <Testimonial />
+      <Contact />
     </Box>
   );
 }

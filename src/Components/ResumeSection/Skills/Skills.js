@@ -3,7 +3,7 @@ import React from "react";
 import "./style.css";
 import SkillBar from "../../../Common/SkillBar/SkillBar";
 import DownloadIcon from "@mui/icons-material/Download";
-import Link from '@mui/material/Link';
+import Link from "@mui/material/Link";
 
 export default function Skills() {
   return (
