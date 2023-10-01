@@ -2,7 +2,7 @@ import React from "react";
 import SectionLayout from "../../Common/SectionLayout/SectionLayout";
 import { Box, Divider, Grid } from "@mui/material";
 import "./style.css";
-import Link from '@mui/material/Link';
+import Link from "@mui/material/Link";
 
 export default function About() {
   return (

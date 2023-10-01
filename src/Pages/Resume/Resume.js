@@ -1,6 +1,6 @@
 import React from "react";
 import SectionLayout from "../../Common/SectionLayout/SectionLayout";
-import {Grid } from "@mui/material";
+import { Grid } from "@mui/material";
 import "./style.css";
 import Education from "../../Components/ResumeSection/Education/Education";
 import Experience from "../../Components/ResumeSection/Experience/Experience";

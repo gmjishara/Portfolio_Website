@@ -11,7 +11,7 @@ import mysql from "../../images/mysql.jpg";
 
 export default function Certifications() {
   return (
-    <section >
+    <section>
       <SectionLayout
         heading="CERTIFICATIONS"
         topic="My Certificates"

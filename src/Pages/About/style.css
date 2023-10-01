@@ -1,32 +1,32 @@
-.aboutContainer{
-    font-family:"Poppins",sans-serif;
+.aboutContainer {
+  font-family: "Poppins", sans-serif;
 }
 
-.aboutContainer h2{
-    font-size: 30px;
-    font-weight: 600;
+.aboutContainer h2 {
+  font-size: 30px;
+  font-weight: 600;
 }
 
-.esseyTxt span{
-    color:#20C997;
+.esseyTxt span {
+  color: #20c997;
 }
 
-.esseyTxt p{
-    line-height: 30px;
-    opacity: 0.8;
+.esseyTxt p {
+  line-height: 30px;
+  opacity: 0.8;
 }
 
-.centerTxt{
-    margin: 10px 0;
+.centerTxt {
+  margin: 10px 0;
 }
 
-.contactTxt p{
-    margin: 15px 0;
-    opacity: 0.8;
+.contactTxt p {
+  margin: 15px 0;
+  opacity: 0.8;
 }
 
-.contactTxt span{
-    font-weight: 600;
-    opacity: 0.8;
-    margin-right: 3px;
+.contactTxt span {
+  font-weight: 600;
+  opacity: 0.8;
+  margin-right: 3px;
 }

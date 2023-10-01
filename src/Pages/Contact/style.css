@@ -1,37 +1,37 @@
-.icons{
-    display: flex;
-    gap:15px;
-    align-items: center;
-    margin-top: 10px;
-    margin-left: 3px;
+.icons {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  margin-top: 10px;
+  margin-left: 3px;
 }
 
-.icons img{
-    cursor: pointer;
+.icons img {
+  cursor: pointer;
 }
 
-.contactBody{
-    width:100%;
-    padding: 10px;
-    font-size: 18px;
-    border-radius: 10px;
-    border: 1px solid #afb8c1;
+.contactBody {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 10px;
+  border: 1px solid #afb8c1;
 }
 
-.contactBody::placeholder{
-    color: #afb8c1;
+.contactBody::placeholder {
+  color: #afb8c1;
 }
 
-.contactBody:hover{
-    border-color: #24292f;
+.contactBody:hover {
+  border-color: #24292f;
 }
 
-.contactBody:focus{
-    border-color: #DAECFF;
-    box-shadow: 0 0 0 1px #007FFF;
-    outline: none;
+.contactBody:focus {
+  border-color: #daecff;
+  box-shadow: 0 0 0 1px #007fff;
+  outline: none;
 }
 
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
