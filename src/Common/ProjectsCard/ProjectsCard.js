@@ -8,7 +8,7 @@ import {
 import React from "react";
 import Link from "@mui/material/Link";
 
-export default function ProjectsCard({ children, imgUrl, link }) {
+export default function ProjectsCard({ children, imgUrl, link, github }) {
   return (
     <div>
       <Card
@@ -25,7 +25,15 @@ export default function ProjectsCard({ children, imgUrl, link }) {
             variant="outlined"
             style={{ color: "white", border: "2px solid #20C997" }}
           >
-            Github
+            <Link
+              href={github}
+              color="inherit"
+              underline="none"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Github
+            </Link>
           </Button>
 
           <Button variant="contained" style={{ backgroundColor: "#20C997" }}>
