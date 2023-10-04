@@ -2,9 +2,9 @@ import React from "react";
 import SectionLayout from "../../Common/SectionLayout/SectionLayout";
 import ProjectsCard from "../../Common/ProjectsCard/ProjectsCard";
 import { Grid, Typography } from "@mui/material";
-import travel from "../../images/travel.jpg";
-import realEstate from "../../images/real_estate.jpg";
-import dashboard from "../../images/dashboard.jpg";
+import travel from "../../images/travel_site.png";
+import portfolio from "../../images/portfolio_site.png";
+import business from "../../images/business_site.png";
 
 export default function Portfolio() {
   return (
@@ -23,14 +23,14 @@ export default function Portfolio() {
           </ProjectsCard>
         </Grid>
         <Grid item sm={4}>
-          <ProjectsCard imgUrl={realEstate}>
+          <ProjectsCard imgUrl={portfolio}>
             <Typography style={{ color: "white", fontSize: "18px" }}>
               Real estate website using React js and Material UI
             </Typography>
           </ProjectsCard>
         </Grid>
         <Grid item sm={4}>
-          <ProjectsCard imgUrl={dashboard}>
+          <ProjectsCard imgUrl={business}>
             <Typography style={{ color: "white", fontSize: "18px" }}>
               Social media dashboard using React js, Material UI and Laravel
             </Typography>
