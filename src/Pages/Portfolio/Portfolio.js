@@ -16,7 +16,7 @@ export default function Portfolio() {
     >
       <Grid container spacing={3}>
         <Grid item sm={4}>
-          <ProjectsCard imgUrl={travel}>
+          <ProjectsCard imgUrl={travel} link="https://gmjishara.github.io/Travel_Website/">
             <Typography style={{ color: "white", fontSize: "18px" }}>
               Travel website using HTML, CSS and JavaScript
             </Typography>

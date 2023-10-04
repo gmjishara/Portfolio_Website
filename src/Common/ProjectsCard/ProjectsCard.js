@@ -6,11 +6,18 @@ import {
   CardMedia,
 } from "@mui/material";
 import React from "react";
+import Link from "@mui/material/Link";
 
-export default function ProjectsCard({ children, imgUrl }) {
+export default function ProjectsCard({ children, imgUrl, link }) {
   return (
     <div>
-      <Card style={{ width: "100%", backgroundColor: "#888a8c",paddingBottom:"5px" }}>
+      <Card
+        style={{
+          width: "100%",
+          backgroundColor: "#888a8c",
+          paddingBottom: "5px",
+        }}
+      >
         <CardMedia sx={{ height: 300 }} image={imgUrl} />
         <CardContent>{children}</CardContent>
         <CardActions>
@@ -20,11 +27,17 @@ export default function ProjectsCard({ children, imgUrl }) {
           >
             Github
           </Button>
-          <Button
-            variant="contained"
-            style={{ backgroundColor: "#20C997" }}
-          >
-            Live Demo
+
+          <Button variant="contained" style={{ backgroundColor: "#20C997" }}>
+            <Link
+              href={link}
+              color="inherit"
+              underline="none"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Live Demo
+            </Link>
           </Button>
         </CardActions>
       </Card>
