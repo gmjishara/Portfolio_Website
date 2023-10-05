@@ -11,7 +11,13 @@ import "./style.css";
 
 export default function Main() {
   return (
-    <Box sx={{ position: "relative", paddingLeft: "260px", width: "100%" }}>
+    <Box
+      sx={{
+        position: "relative",
+        paddingLeft: { xl: "260px", lg: "260px", md: "260px", sm: 0, xs: 0 },
+        width: "100%",
+      }}
+    >
       <HomeImage />
       <About />
       <Resume />

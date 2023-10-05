@@ -100,7 +100,19 @@ export default function SideNavbar() {
   };
 
   return (
-    <Box sx={{ position: "fixed", zIndex: "2" }}>
+    <Box
+      sx={{
+        position: "fixed",
+        zIndex: "2",
+        display: {
+          xl: "block",
+          lg: "block",
+          md: "block",
+          sm: "none",
+          xs: "none",
+        },
+      }}
+    >
       <Paper elevation={0} sx={paperStyle}>
         <Grid container sx={containertyle}>
           <Grid item>
