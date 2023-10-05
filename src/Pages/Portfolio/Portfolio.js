@@ -33,7 +33,7 @@ export default function Portfolio() {
             github="https://github.com/gmjishara/Portfolio_Website"
           >
             <Typography style={{ color: "white", fontSize: "18px" }}>
-              Real estate website using React js and Material UI
+              Portfolio website using React JS and Material UI
             </Typography>
           </ProjectsCard>
         </Grid>
@@ -44,7 +44,7 @@ export default function Portfolio() {
             github="https://github.com/gmjishara/Personal_Business_Web_App"
           >
             <Typography style={{ color: "white", fontSize: "18px" }}>
-              Social media dashboard using React js, Material UI and Laravel
+              Personal Business Website using Next JS with MongoDB
             </Typography>
           </ProjectsCard>
         </Grid>
