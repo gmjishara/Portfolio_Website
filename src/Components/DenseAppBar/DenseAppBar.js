@@ -6,7 +6,15 @@ import Typography from "@mui/material/Typography";
 import IconButton from "@mui/material/IconButton";
 import MenuIcon from "@mui/icons-material/Menu";
 
-export default function DenseAppBar() {
+export default function DenseAppBar({ visible, setVisible }) {
+  const visibiltiyChange = () => {
+    if (visible === "none") {
+      setVisible("block");
+    } else {
+      setVisible("none");
+    }
+  };
+
   return (
     <Box
       sx={{
@@ -25,6 +33,7 @@ export default function DenseAppBar() {
         sx={{
           backgroundColor: "#111418",
           height: "70px",
+          width:"100%",
           display: "flex",
           justifyContent: "center",
         }}
@@ -35,6 +44,7 @@ export default function DenseAppBar() {
             color="inherit"
             aria-label="menu"
             sx={{ mr: 2 }}
+            onClick={visibiltiyChange}
           >
             <MenuIcon />
           </IconButton>

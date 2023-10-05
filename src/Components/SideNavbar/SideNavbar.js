@@ -11,13 +11,13 @@ import linkedin from "../../images/navbar/linkedin.svg";
 import github from "../../images/navbar/github.svg";
 import LinkPopover from "../../Common/LinkPopover/LinkPopover";
 
-export default function SideNavbar() {
+export default function SideNavbar({visible}) {
   const paperStyle = {
     backgroundColor: "#111418",
     color: "#FFFFFF",
     fontFamily: "'Poppins', sans-serif",
     height: "100vh",
-    width: 260,
+    width: "18vw",
     borderRadius: 0,
   };
 
@@ -99,17 +99,22 @@ export default function SideNavbar() {
     scroll.scrollToTop();
   };
 
+
   return (
     <Box
       sx={{
-        position: "fixed",
+        position: {
+          sm:"fixed"
+        },
+        left:0,
         zIndex: "2",
+        
         display: {
           xl: "block",
           lg: "block",
           md: "block",
-          sm: "none",
-          xs: "none",
+          sm: `${visible}`,
+          xs: `${visible}`,
         },
       }}
     >

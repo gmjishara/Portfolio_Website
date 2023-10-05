@@ -14,7 +14,7 @@ export default function Main() {
     <Box
       sx={{
         position: "relative",
-        paddingLeft: { xl: "260px", lg: "260px", md: "260px", sm: 0, xs: 0 },
+        paddingLeft: { xl: "18vw", lg: "18vw", md: "18vw" },
         width: "100%",
       }}
     >
