@@ -22,24 +22,24 @@
 
 .homeImage h3 {
   color: white;
-  font-size: 35px;
+  font-size: var(---imageWelcome-font-size);
   font-weight: 500;
 }
 
-.homeImage h1 {
+/* .homeImage h1 {
   color: white;
   font-size: 70px;
   font-weight: 700;
-}
+} */
 
 .homeImage p {
   color: white;
-  font-size: 25px;
+  font-size: var(---imageAddress-font-size);
   opacity: 0.8;
 }
 
 .animateText {
   color: white;
-  font-size: 70px;
+  font-size: var(---imageHeading-font-size);
   font-weight: 700;
 }
