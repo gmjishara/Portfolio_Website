@@ -10,6 +10,7 @@
     ---imageWelcome-font-size: 40px;
     ---imageAddress-font-size: 30px;
     ---outlinedBtn-font-size: 16px;
+    ---introducedMeTxt-font-size:30px;
   }
 }
 
@@ -19,6 +20,7 @@
     ---imageWelcome-font-size: 40px;
     ---imageAddress-font-size: 30px;
     ---outlinedBtn-font-size: 16px;
+    ---introducedMeTxt-font-size:30px;
   }
 }
 
@@ -28,6 +30,7 @@
     ---imageWelcome-font-size: 35px;
     ---imageAddress-font-size: 25px;
     ---outlinedBtn-font-size: 16px;
+    ---introducedMeTxt-font-size:30px;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
@@ -36,6 +39,7 @@
     ---imageWelcome-font-size: 35px;
     ---imageAddress-font-size: 22px;
     ---outlinedBtn-font-size: 16px;
+    ---introducedMeTxt-font-size:28px;
   }
 }
 
@@ -45,6 +49,7 @@
     ---imageWelcome-font-size: 32px;
     ---imageAddress-font-size: 20px;
     ---outlinedBtn-font-size: 14px;
+    ---introducedMeTxt-font-size:25px;
   }
 }
 
@@ -54,5 +59,6 @@
     ---imageWelcome-font-size: 25px;
     ---imageAddress-font-size: 20px;
     ---outlinedBtn-font-size: 14px;
+    ---introducedMeTxt-font-size:23px;
   }
 }

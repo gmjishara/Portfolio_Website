@@ -54,7 +54,6 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 10px;
   color: #ffffff;
   font-size: var(---outlinedBtn-font-size);
   font-weight: 500;
