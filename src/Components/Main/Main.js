@@ -7,24 +7,38 @@ import Portfolio from "../../Pages/Portfolio/Portfolio";
 import Certifications from "../../Pages/Certifications/Certifications";
 import Testimonial from "../../Pages/Testimonial/Testimonial";
 import Contact from "../../Pages/Contact/Contact";
+import { Grid } from "@mui/material";
 import "./style.css";
 
 export default function Main() {
   return (
-    <Box
+    <Grid
+      container
       sx={{
-        position: "relative",
-        paddingLeft: { xl: "18vw", lg: "18vw", md: "18vw" },
         width: "100%",
       }}
     >
-      <HomeImage />
-      <About />
-      <Resume />
-      <Portfolio />
-      <Certifications />
-      <Testimonial />
-      <Contact />
-    </Box>
+      <Grid item sx={{width:"100%"}}>
+        <HomeImage />
+      </Grid>
+      <Grid item xs={12}>
+        <About />
+      </Grid>
+      <Grid item xs={12}>
+        <Resume />
+      </Grid>
+      <Grid item xs={12}>
+        <Portfolio />
+      </Grid>
+      <Grid item xs={12}>
+        <Certifications />
+      </Grid>
+      <Grid item xs={12}>
+        <Testimonial />
+      </Grid>
+      <Grid item xs={12}>
+        <Contact />
+      </Grid>
+    </Grid>
   );
 }

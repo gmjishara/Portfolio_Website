@@ -19,10 +19,11 @@ export default function DenseAppBar({ visible, setVisible }) {
     <Box
       sx={{
         flexGrow: 1,
+        
         display: {
           xl: "none",
           lg: "none",
-          md: "none",
+          md: "block",
           sm: "block",
           xs: "block",
         },

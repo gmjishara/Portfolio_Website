@@ -17,7 +17,7 @@ export default function SideNavbar({visible}) {
     color: "#FFFFFF",
     fontFamily: "'Poppins', sans-serif",
     height: "100vh",
-    width: "18vw",
+    width: "17.5vw",
     borderRadius: 0,
   };
 
@@ -112,7 +112,7 @@ export default function SideNavbar({visible}) {
         display: {
           xl: "block",
           lg: "block",
-          md: "block",
+          md: `${visible}`,
           sm: `${visible}`,
           xs: `${visible}`,
         },

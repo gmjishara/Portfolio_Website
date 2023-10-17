@@ -15,7 +15,7 @@ export default function About() {
           id="about"
         >
           <Grid container spacing={5}>
-            <Grid item sm={8} className="esseyTxt">
+            <Grid item xs={12} sm={12} md={12} lg={8} xl={8} className="esseyTxt">
               <h2>
                 I'm <span>Janith Ishara</span>, a Web Developer
               </h2>
@@ -31,7 +31,7 @@ export default function About() {
                 standard dummy text ever when an unknown printer took a galley.
               </p>
             </Grid>
-            <Grid item sm={4} className="contactTxt">
+            <Grid item xs={12} sm={12} md={12} lg={4} xl={4} className="contactTxt">
               <p>
                 <span>Name: </span>Janith Ishara
               </p>
