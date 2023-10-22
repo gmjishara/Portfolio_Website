@@ -65,7 +65,15 @@ export default function About() {
               </p>
             </Grid>
             <Grid item xs={12} sm={12} md={8} lg={8} xl={8}></Grid>
-            <Grid item xs={12} sm={12} md={4} lg={4} xl={4} className="btnContainer">
+            <Grid
+              item
+              xs={12}
+              sm={12}
+              md={4}
+              lg={4}
+              xl={4}
+              className="btnContainer"
+            >
               <Link href="http://localhost:3000/Resume.pdf" underline="none">
                 <button className="btn-contained aboutBtn">Download CV</button>
               </Link>
